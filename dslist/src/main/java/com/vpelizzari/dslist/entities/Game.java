@@ -26,6 +26,10 @@ public class Game {
     @Column(columnDefinition = "TEXT") //alterando a definição da columa, de VARCHAR para TEXTO
     private String longDescription;
 
+    public Game(){
+
+    }
+
     public Game(Long id, String title, Integer year, String genre, String platforms, Double score, String imgUrl, String shortDescription, String longDescription) {
         this.id = id;
         this.title = title;
@@ -113,14 +117,19 @@ public class Game {
 
     //equals and hashCode = usado para comparar mais de um objeto (diversos games)
     @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof Game game)) return false;
-        return getId().equals(game.getId());
+    public int hashCode() {
+        return Objects.hash(id);
     }
 
     @Override
-    public int hashCode() {
-        return Objects.hash(getId());
+    public boolean equals(Object obj) {
+        if (this == obj)
+            return true;
+        if (obj == null)
+            return false;
+        if (getClass() != obj.getClass())
+            return false;
+        Game other = (Game) obj;
+        return Objects.equals(id, other.id);
     }
 }

@@ -1,6 +1,7 @@
 package com.vpelizzari.dslist.Controllers;
 
 import com.vpelizzari.dslist.Services.GameService;
+import com.vpelizzari.dslist.dto.GameMinDTO;
 import com.vpelizzari.dslist.entities.Game;
 import com.vpelizzari.dslist.repositories.GameRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,9 +19,17 @@ public class GameController {
     @Autowired
     private GameService gameService;
 
-    @GetMapping // mapeando solicitações HTTP GET em métodos manipuladores específicos
-    public List<Game> findAll(){
+    //buscar todos os "games"
+    /*@GetMapping // mapeando solicitações HTTP GET em métodos manipuladores específicos
+    public List<Game> findAll() {
         List<Game> result = gameService.findAll();
+        return result;
+    }*/
+
+    //apresenta games simplificado
+    @GetMapping
+    public List<GameMinDTO> findAll() {
+        List<GameMinDTO> result = gameService.findAll();
         return result;
     }
 }
