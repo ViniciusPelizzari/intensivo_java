@@ -1,5 +1,6 @@
 package com.vpelizzari.dslist.Services;
 
+import com.vpelizzari.dslist.Projections.GameMinProjection;
 import com.vpelizzari.dslist.dto.GameDTO;
 import com.vpelizzari.dslist.dto.GameMinDTO;
 import com.vpelizzari.dslist.entities.Game;
@@ -49,5 +50,11 @@ public class GameService {
     public GameDTO findById(@PathVariable Long listId) {
         Game result = gameRepository.findById(listId).get(); //.get() - usado pq o findById retorna um OPTIONAL, e para retornar um game específico é usado o .get()
         return new GameDTO(result); //transformando o Game em um GameDTO
+    }
+
+    @Transactional(readOnly = true)
+    public List<GameMinDTO> findByList( Long listId) {
+        List<GameMinProjection> result = gameRepository.searchByList(listId);
+        return result.stream().map(x -> new GameMinDTO(x)).toList();
     }
 }

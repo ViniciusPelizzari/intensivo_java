@@ -1,5 +1,6 @@
 package com.vpelizzari.dslist.dto;
 
+import com.vpelizzari.dslist.Projections.GameMinProjection;
 import com.vpelizzari.dslist.entities.Game;
 
 public class GameMinDTO {
@@ -16,6 +17,14 @@ public class GameMinDTO {
         year = entity.getYear();
         imgUrl = entity.getImgUrl();
         shortDescription = entity.getShortDescription();
+    }
+
+    public GameMinDTO(GameMinProjection projection) {
+        id = projection.getId();
+        title = projection.getTitle();
+        year = projection.getYear();
+        imgUrl = projection.getImgUrl();
+        shortDescription = projection.getShortDescription();
     }
 
     public Long getId() {

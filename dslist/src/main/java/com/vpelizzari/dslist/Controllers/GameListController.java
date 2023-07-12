@@ -20,6 +20,8 @@ public class GameListController {
     //puxando uma instância, e injetando a instância do GameService dentro do GameController
     @Autowired
     private GameListService gameListService;
+    @Autowired
+    private GameService gameService;
 
     //buscar todos os "games"
     /*@GetMapping // mapeando solicitações HTTP GET em métodos manipuladores específicos
@@ -32,6 +34,12 @@ public class GameListController {
     @GetMapping
     public List<GameListDTO> findAll() {
         List<GameListDTO> result = gameListService.findAll();
+        return result;
+    }
+
+    @GetMapping(value = "/{listId}/games")
+    public List<GameMinDTO> findByList(@PathVariable Long listId) {
+        List<GameMinDTO> result = gameService.findByList(listId);
         return result;
     }
 }
