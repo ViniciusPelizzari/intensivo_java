@@ -13,7 +13,7 @@
   <img align="center" alt="postman" height="60" width="70" src="https://www.flaticon.com/free-icon/train_4846935?related_id=4846935&origin=pack">
 
 ##Modelo de domínio
-![Modelo de domínio](raw.githubusercontent.com/devsuperior/java-spring-dslist/main/resources/dslist-model.png)
+<img align="center" alt="Modelo de domínio" height="60" width="70" src="https:raw.githubusercontent.com/devsuperior/java-spring-dslist/main/resources/dslist-model.png">
 
 ##Dependências do projeto
 - Spring WEB
