@@ -1,6 +1,6 @@
 # Projeto Lista de Games - Intensivo Java | Spring
 
-##Tecnologias utilizadas
+## Tecnologias utilizadas
 <div style="display: inline_block"><br>
   <img align="center" alt="Java" height="60" width="70" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-plain.svg">
   <img align="center" alt="spring" height="60" width="70" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg">
@@ -13,13 +13,13 @@
   <img align="center" alt="railway" height="60" width="70" src="https://railway.app/brand/logo-light.svg"><br>
 
 ##
-##Dependências do projeto
+## Dependências do projeto
 - Spring WEB
 - Spring Data JPA
 - H2 DataBase
 - PostgreSQL Driver
 
-##Hospedagem
+## Hospedagem
 - Railway
 
 ## Trechos de código
