@@ -5,11 +5,9 @@ import com.vpelizzari.dslist.Services.GameService;
 import com.vpelizzari.dslist.dto.GameDTO;
 import com.vpelizzari.dslist.dto.GameListDTO;
 import com.vpelizzari.dslist.dto.GameMinDTO;
+import com.vpelizzari.dslist.dto.ReplacementDTO;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -37,9 +35,15 @@ public class GameListController {
         return result;
     }
 
+    //apresenta game por id
     @GetMapping(value = "/{listId}/games")
     public List<GameMinDTO> findByList(@PathVariable Long listId) {
         List<GameMinDTO> result = gameService.findByList(listId);
         return result;
+    }
+
+    @PostMapping(value = "/{listId}/replacement")
+    public void moveGame(@PathVariable Long listId, @RequestBody ReplacementDTO body) { //@RequestBody - para o framework mapear o JSON | ReplacementDTO body faz parte da requisição POST do Postman, em que passará o sourceIndex e o destinationIndex atráves do JSON
+        gameListService.move(listId, body.getSourceIndex(), body.getDestinationIndex());
     }
 }
