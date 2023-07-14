@@ -9,11 +9,8 @@
   <img align="center" alt="git" height="60" width="70" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg">
   <img align="center" alt="github" height="60" width="70" src="https://github.com/devicons/devicon/blob/master/icons/github/github-original.svg">
   <img align="center" alt="intellij" height="60" width="70" src="https://github.com/devicons/devicon/blob/master/icons/intellij/intellij-original.svg">
-  <img align="center" alt="postman" height="60" width="70" src="https://iconscout.com/icon/postman-3521648">
-  <img align="center" alt="postman" height="60" width="70" src="https://www.flaticon.com/free-icon/train_4846935?related_id=4846935&origin=pack">
-
-##Modelo de domínio
-<img align="center" alt="Modelo de domínio" height="60" width="70" src="https:raw.githubusercontent.com/devsuperior/java-spring-dslist/main/resources/dslist-model.png">
+  <img align="center" alt="postman" height="60" width="70" src="https://icon.icepanel.io/Technology/svg/Postman.svg">
+  <img align="center" alt="railway" height="60" width="70" src="https://railway.app/brand/logo-light.svg">
 
 ##Dependências do projeto
 - Spring WEB
@@ -201,9 +198,9 @@ INSERT INTO tb_belonging (list_id, game_id, position) VALUES (2, 10, 4);
 
 ### Script Docker Compose
 Configuração BD (PostgreSQL) em contêiner Docker -> usado no ambiente de desenvolvimento.
-*usado atráves do navegador.* 
-*verificar portas (caso houver BD instalado na máquina).*
-*entrar no link, copiar arquivo cru, salvar em uma pasta, nome do arquivo: docker-compose.yml.*
+- *usado atráves do navegador.* 
+- *verificar portas (caso houver BD instalado na máquina).*
+- *entrar no link, copiar arquivo cru, salvar em uma pasta, nome do arquivo: docker-compose.yml.*
 
 https://gist.github.com/acenelio/5e40b27cfc40151e36beec1e27c4ff71
 
