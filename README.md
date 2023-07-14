@@ -7,11 +7,12 @@
   <img align="center" alt="docker" height="60" width="70" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg">
   <img align="center" alt="postgresql" height="60" width="70" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg">
   <img align="center" alt="git" height="60" width="70" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg">
-  <img align="center" alt="github" height="60" width="70" src="https://github.com/devicons/devicon/blob/master/icons/github/github-original.svg">
+  <img align="center" alt="github" height="60" width="70" src="https://icon.icepanel.io/Technology/png-shadow-512/GitHub.png">
   <img align="center" alt="intellij" height="60" width="70" src="https://github.com/devicons/devicon/blob/master/icons/intellij/intellij-original.svg">
   <img align="center" alt="postman" height="60" width="70" src="https://icon.icepanel.io/Technology/svg/Postman.svg">
   <img align="center" alt="railway" height="60" width="70" src="https://railway.app/brand/logo-light.svg"><br>
 
+##
 ##Dependências do projeto
 - Spring WEB
 - Spring Data JPA
