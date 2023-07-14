@@ -12,7 +12,6 @@
   <img align="center" alt="postman" height="60" width="70" src="https://icon.icepanel.io/Technology/svg/Postman.svg">
   <img align="center" alt="railway" height="60" width="70" src="https://railway.app/brand/logo-light.svg"><br>
 
-##
 ## Dependências do projeto
 - Spring WEB
 - Spring Data JPA
