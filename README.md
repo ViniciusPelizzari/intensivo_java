@@ -3,7 +3,7 @@
 ## Tecnologias utilizadas
 <div style="display: inline_block"><br>
   <img align="center" alt="Java" height="60" width="70" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-plain.svg">
-  <img align="center" alt="spring" height="60" width="70" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg">
+  <img align="center" alt="spring" height="60" width="70" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-	original.svg">
   <img align="center" alt="docker" height="60" width="70" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg">
   <img align="center" alt="postgresql" height="60" width="70" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg">
   <img align="center" alt="git" height="60" width="70" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg">
@@ -11,6 +11,7 @@
   <img align="center" alt="intellij" height="60" width="70" src="https://github.com/devicons/devicon/blob/master/icons/intellij/intellij-original.svg">
   <img align="center" alt="postman" height="60" width="70" src="https://icon.icepanel.io/Technology/svg/Postman.svg">
   <img align="center" alt="railway" height="60" width="70" src="https://railway.app/brand/logo-light.svg"><br>
+</div>
 
 ## Dependências do projeto
 - Spring WEB
@@ -227,4 +228,7 @@ alter table if exists tb_belonging add constraint FK2slybclee7wdfxhfltbvqkgpg fo
 
 (colar no Query Tool - PostgreSQL ou Docker Compose - o que estiver usando).
 
-<img align="center" alt="logo_perfil" height="60" width="70" src="https://raw.githubusercontent.com/ViniciusPelizzari/perfil_web/main/img/1escopi-removebg-preview.png"><br> V_Pelizzari
+<div style="display: flex; align-items: center;">
+  <img align="center" alt="logo_perfil" height="60" width="70" src="https://raw.githubusercontent.com/ViniciusPelizzari/perfil_web/main/img/1escopi-removebg-preview.png">
+  <span style="margin-left: 10px;">V_Pelizzari</span>
+</div>
