@@ -226,3 +226,5 @@ alter table if exists tb_belonging add constraint FK2slybclee7wdfxhfltbvqkgpg fo
 ```
 
 (colar no Query Tool - PostgreSQL ou Docker Compose - o que estiver usando).
+
+<img align="center" alt="logo_perfil" height="60" width="70" src="https://raw.githubusercontent.com/ViniciusPelizzari/perfil_web/main/img/1escopi-removebg-preview.png"><br> V_Pelizzari
